@@ -1,4 +1,17 @@
-/* General setup */
+@font-face {
+    font-family: 'Montserrat';
+    src: url('fonts/Montserrat-Regular.woff2') format('woff2'),
+        url('fonts/Montserrat-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+.limelight-regular {
+  font-family: "Limelight", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
 
 html {
   font-size: 10px;
@@ -12,6 +25,13 @@ body {
   margin: 0 auto;
 }
 
+p {
+  font-family: "Montserrat-Regular", Arial, Helvetica, sans-serif;
+}
+
+h1, h2 {
+  font-family: "Limelight", sans-serif;
+}
 /* Typography */
 
 h1 {
